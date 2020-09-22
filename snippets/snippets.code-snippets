@@ -1,0 +1,26 @@
+{
+  "CSS Snippet": {
+    "prefix": "!css",
+    "body": [
+      "<link rel=\"stylesheet\" type=\"text/css\" media=\"screen\" href=\"${1:dir}/reset.css\" />",
+      "<link rel=\"stylesheet\" type=\"text/css\" media=\"screen\" href=\"${1:dir}/layout.css\" />",
+      "<link rel=\"stylesheet\" type=\"text/css\" media=\"screen\" href=\"${1:dir}/style.css\" />"
+    ],
+    "description": "css files for lf"
+  },
+  "React Bind Snippet": {
+    "prefix": "!bind",
+    "body": "this.${foo} = this.${foo}.bind(this)",
+    "description": "this binding for react"
+  },
+  "log": {
+    "prefix": "!log",
+    "body": [
+      "console.log(\"****************************\");",
+      "console.log(\"********** ${foo} **********\");",
+      "console.log(\"****************************\")",
+      "console.log(${foo})"
+    ],
+    "description": "log"
+  }
+}
